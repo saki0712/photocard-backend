@@ -129,6 +129,7 @@ celerybeat.pid
 
 # Environments
 .env
+.env.production
 .venv
 env/
 venv/
@@ -169,3 +170,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Django Migrations
+migrations/
+
+# VSCode settings
+.vscode/
