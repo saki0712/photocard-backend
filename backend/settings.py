@@ -15,7 +15,6 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-# Define the base directory
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Load environment variables
